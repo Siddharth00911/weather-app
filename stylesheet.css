@@ -1,0 +1,49 @@
+.parent{
+    /* background-color: grey; 1*/
+    height: 100vh;
+    /* position: relative; 1*/
+    display: flex;
+    /* flex-direction: row; 2222*/
+    align-items: flex-start;        /*cross axis,  single colum*/
+    /* align-content: flex-start;  for group of context, multiple colum*/
+    justify-content: flex-start;    /*main axis*/
+    border: 2px solid black;     
+    /* flex-wrap: wrap; 2222*/
+    flex-flow: row wrap;
+    /* align-self: flex-start; */   /*  only for child class*/
+
+
+}
+
+.child1{
+    background-color: red;
+    /* position: absolute; */
+    /* position: fixed; */
+    height: 100px;
+    width: 100px;
+    flex-grow: 1;
+    order: 4;
+}
+
+.child2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    order: 3;
+
+}
+
+.child3{
+    background-color:  blue;
+    height: 100px;
+    width: 100px;
+    order: 2;
+
+}
+
+.child4{
+    background-color:  orange;
+    height: 100px;
+    width: 100px;
+    order: 1;
+}
