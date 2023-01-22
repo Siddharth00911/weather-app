@@ -1,4 +1,5 @@
-.parent{
+
+ .parent{
     /* background-color: grey; 1*/
     height: 100vh;
     /* position: relative; 1*/
@@ -30,7 +31,7 @@
     height: 100px;
     width: 100px;
     order: 3;
-
+    
 }
 
 .child3{
@@ -46,4 +47,4 @@
     height: 100px;
     width: 100px;
     order: 1;
-}
+} 

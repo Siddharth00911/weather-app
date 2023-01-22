@@ -1,12 +1,9 @@
-// flex basic-context size
+const toogleButton = document.getElementsByClassName('toogle-button')[0];
+const navLinks = document.getElementsByClassName('navBar-links')
 
-//fletboxfroggy.com
 
-//css tricks.com
+toogleButton.addEventListener('click', function () {
+    navLinks.classList.toogle('active')
+});
 
-//web aceesbility
-
-//flex box-> 1 dimension
-//grid-> multi dimension
-
-//
+console.log('Toogle Button', toogleButton);
